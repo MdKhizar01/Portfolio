@@ -1,0 +1,91 @@
+body{
+  
+    display: flex;
+    background-color: rgb(100 116 139)!important;
+  }
+    
+  .buttons{
+    color:   rgb(226 232 240) !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .btn  {
+      color:    rgb(226 232 240) !important;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      text-transform: uppercase;
+     
+  }
+  button:hover {
+      background-color: #45a049;
+      transform: scale(1.1);
+  }
+
+  .we{
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .we:hover {
+    opacity: 0.5; /* Change the opacity on hover (or any other event) */
+  }
+.prjs{
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    
+  }
+  .prj1{
+    display: flex;
+    justify-content: start;
+  }
+  .p1{
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    float: right;
+    margin-bottom: 20px;
+  }
+  .prj1>p{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight:250px;
+    color: whitesmoke;
+  }
+  .prj2{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+  }
+  .p2{
+    height: 300px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .prj2>p{
+    margin-top: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight:250px;
+    color: whitesmoke;
+  }
+.footer{
+    clear: both;
+    margin-top: 20%;
+    color: whitesmoke;
+  }

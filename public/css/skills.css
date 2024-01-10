@@ -1,0 +1,99 @@
+body{
+  
+    display: flex;
+    background-color: rgb(100 116 139)!important;
+  }
+    
+  .buttons{
+    color:   rgb(226 232 240) !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .btn  {
+      color:    rgb(226 232 240) !important;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      text-transform: uppercase;
+     
+  }
+  button:hover {
+      background-color: #45a049;
+      transform: scale(1.1);
+  }
+.titles{
+    text-align: center;
+    text-transform: uppercase;
+   
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+  p{
+    color: whitesmoke;
+    
+  }
+  .h1{
+    color: rgb(15 23 42);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    
+  }
+  .skill{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        gap: 2rem;
+  }
+  .skills{
+    flex: 1;
+    max-width: 400px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 20px;
+    text-align: center;
+  }
+  .tname{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: rgb(76 5 25);
+  }
+  .xyz{
+   
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: black;
+  }
+  .skills:hover{
+    background-color: #45a049;
+      transform: scale(1.1);
+  }
+  
+    .footer{
+      clear: both;
+      margin-top: 20%;
+      color: whitesmoke;
+    }
+  

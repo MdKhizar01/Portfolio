@@ -1,0 +1,75 @@
+body{
+  
+    display: flex;
+    background-color: rgb(100 116 139)!important;
+  }
+    
+  .buttons{
+    color:   rgb(226 232 240) !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .btn  {
+      color:    rgb(226 232 240) !important;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      text-transform: uppercase;
+     
+  }
+  button:hover {
+      background-color: #45a049;
+      transform: scale(1.1);
+  }
+.edu{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+  }
+  .s1{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    max-width: 50vh;
+    height: 300px;
+  }
+  .t1{
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .x1{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .we{
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .we:hover {
+    opacity: 0.5; /* Change the opacity on hover (or any other event) */
+  }
+  .footer{
+    clear: both;
+    margin-top: 20%;
+    color: whitesmoke;
+  }

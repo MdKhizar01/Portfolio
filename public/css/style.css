@@ -1,0 +1,269 @@
+body{
+  
+  display: flex;
+  background-color: rgb(100 116 139)!important;
+}
+  
+.buttons{
+  color:   rgb(226 232 240) !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  
+  
+}
+.btn  {
+    color:    rgb(226 232 240) !important;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+   
+}
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+.myself{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  color:rgb(15 23 42);
+  text-align: start;
+  padding: 10px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  text-transform: uppercase;
+}
+
+.btn2{
+  align-self: center;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  border: none;
+  clear: both;
+  color: whitesmoke;
+  
+}
+.btn3{
+  background-color: black !important;
+  
+  border: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+  
+}
+
+  
+ 
+
+.footer{
+  clear: both;
+  margin-top: 20%;
+  color: whitesmoke;
+  
+
+}
+
+
+/*Skills styling*/
+
+.titles{
+  text-align: center;
+  text-transform: uppercase;
+ 
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+p{
+  color: whitesmoke;
+  
+}
+.h1{
+  color: rgb(15 23 42);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+  
+}
+.skill{
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      gap: 2rem;
+}
+.skills{
+  flex: 1;
+  max-width: 400px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  padding: 20px;
+  text-align: center;
+}
+.tname{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: rgb(76 5 25);
+}
+.xyz{
+ 
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 30px;
+  color: black;
+}
+.skills:hover{
+  background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* experience styling */
+.we{
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  transition: opacity 0.5s ease-in-out;
+}
+.we:hover {
+  opacity: 0.5; /* Change the opacity on hover (or any other event) */
+}
+
+.experience{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  max-width: 100vh;
+  
+}
+
+
+
+.tname2{
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  margin-left: 30px;
+ 
+}
+.xyz2{
+  
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 80px;
+  color: black;
+}
+.btn4{
+    display: inline-flex;
+    background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+    color: whitesmoke;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+/* education */
+.edu{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+.s1{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  max-width: 50vh;
+  height: 300px;
+}
+.t1{
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.x1{
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+/* project */
+.prjs{
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+.prj1{
+  display: flex;
+  justify-content: start;
+}
+.p1{
+  height: 300px;
+  width: 500px;
+  margin-top: 50px;
+  float: right;
+  margin-bottom: 20px;
+}
+.prj1>p{
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight:250px;
+  color: whitesmoke;
+}
+.prj2{
+  display: flex;
+  justify-content: end;
+  align-items:center;
+}
+.p2{
+  height: 300px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.prj2>p{
+  margin-top: 0px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight:250px;
+  color: whitesmoke;
+}
+
+
+
+ 
+ 
+ 
